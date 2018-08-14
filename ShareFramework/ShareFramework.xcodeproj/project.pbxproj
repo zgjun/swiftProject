@@ -13,6 +13,7 @@
 		275D4E232122685900A49E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275D4E222122685900A49E5A /* Assets.xcassets */; };
 		275D4E262122685900A49E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275D4E242122685900A49E5A /* LaunchScreen.storyboard */; };
 		275D4E292122685900A49E5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 275D4E282122685900A49E5A /* main.m */; };
+		275D4E322122688F00A49E5A /* ShareFilesObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 275D4E312122688F00A49E5A /* ShareFilesObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		275D4E252122685900A49E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		275D4E272122685900A49E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		275D4E282122685900A49E5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		275D4E302122688F00A49E5A /* ShareFilesObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareFilesObject.h; sourceTree = "<group>"; };
+		275D4E312122688F00A49E5A /* ShareFilesObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareFilesObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		275D4E182122685900A49E5A /* ShareFramework */ = {
 			isa = PBXGroup;
 			children = (
+				275D4E2F2122686C00A49E5A /* ShareCode */,
 				275D4E192122685900A49E5A /* AppDelegate.h */,
 				275D4E1A2122685900A49E5A /* AppDelegate.m */,
 				275D4E1C2122685900A49E5A /* ViewController.h */,
@@ -69,6 +73,15 @@
 				275D4E282122685900A49E5A /* main.m */,
 			);
 			path = ShareFramework;
+			sourceTree = "<group>";
+		};
+		275D4E2F2122686C00A49E5A /* ShareCode */ = {
+			isa = PBXGroup;
+			children = (
+				275D4E302122688F00A49E5A /* ShareFilesObject.h */,
+				275D4E312122688F00A49E5A /* ShareFilesObject.m */,
+			);
+			path = ShareCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 			files = (
 				275D4E1E2122685900A49E5A /* ViewController.m in Sources */,
 				275D4E292122685900A49E5A /* main.m in Sources */,
+				275D4E322122688F00A49E5A /* ShareFilesObject.m in Sources */,
 				275D4E1B2122685900A49E5A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
